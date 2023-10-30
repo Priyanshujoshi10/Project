@@ -1,0 +1,35 @@
+.parent{
+    background-color: bisque;
+    border: solid black;
+    box-shadow: 8px 8px aquamarine;
+    height: 550px;
+    width: 300px;
+    padding: 30px;
+    margin-left: 600px;
+    margin-top: 60px;
+}
+ input#p{
+    height: 28px;
+    border: solid black;
+    width: 250px;
+}
+ #hello{
+    margin-left: 40px;
+    font-size: 22px;
+}
+#yo{
+    margin-left: 25px;
+    font-size: 22px; 
+}
+
+#ppp{
+    font-size: 30px
+
+}
+input#z{
+    height: 28px;
+    border: solid black;
+    width: 150px;
+    background-color: blue;
+    color: white;
+}

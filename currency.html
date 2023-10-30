@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Currency Convertor</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            body{
+                display: flex;
+                background-color: rgb(167, 248, 221);
+                justify-content: center;
+                align-items: center;
+                margin-top: 200px;
+            }
+            input{
+                height: 35px;
+                width: 300px;
+                border-radius: 4px;
+                border: 1px solid black;
+            }
+            label{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+            }
+            select{
+                height: 35px;
+                width: 120px;
+            }
+
+                        </style>
+    </head>
+    <body>
+        <form id="my-form" name="Convertor" action="">
+        <label for="Currency">Amount</label>
+        <input type="number" name="Amount" id="Currency">
+        <br>
+        <label for="">select currency</label>
+        
+        <select name="currency" id="kailash" onchange="hello(this.value)">
+        <option value="279">Dinnar</option>
+        <option value="94">Euro</option>
+        <option value="83">Dollar</option>
+        <option value="51">Rubble</option>
+        </select>
+        <br>
+        <input type="number" name="result" id="output" readonly>
+    </form>
+        <script>
+            
+            function hello(val){
+                let inputs=document.querySelectorAll("input")
+                inputs[1].value=val*inputs[0].value
+            
+                
+            }
+            
+        </script>
+    </body>
+</html>
